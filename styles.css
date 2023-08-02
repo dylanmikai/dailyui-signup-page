@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  background-color: beige;
+}
+
+
+.form-signup {
+  max-width: 1080px;
+  padding: 1rem;
+}
+
+svg {
+    color: green;
+}
+
+.mail-logo {
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup input#floatingInput {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signup input#floatingFirstName {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+.form-signup input#floatingLastName {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
