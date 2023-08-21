@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  background-color: #EAFFD0;
+}
+
+
+
+.form-signup input {
+  background-color: #EAFFD0;
+}
+.form-signup {
+  max-width: 1080px;
+  padding: 1rem;
+}
+
+svg {
+    color: #FCE38A;
+}
+
+.mail-logo {
+    background-color: #F38181;
+    padding: 21px;
+    border-radius: 50%;
+}
+
+.form-signup .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signup input:focus {
+  box-shadow: 0 0 0 0.25rem #95E1D3;
+}
+
+.btn {
+  background-color: #F38181;
+  border-color: #FCE38A;
+  color: #FCE38A;
+}
+
+.btn:hover {
+  background-color: #F38181;
+  border-color: #95E1D3;
+  color: #95E1D3;
+  
+}
+
+.form-signup input#floatingEmail {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signup input#floatingFirstName {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+.form-signup input#floatingLastName {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
